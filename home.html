@@ -24,19 +24,19 @@
 
   <div id="div1"></div>
   <div class="botonera" id="botonera">
-    <div class="conexto" id="btn2" onclick="mostrarp(1,2,1)">Finanzas sustentables</div>
-    <div class="conexto" id="btn3" onclick="mostrarp(2,3,2)">Finanzas <br>verdes</div>
-    <div class="conexto" id="btn4" onclick="mostrarp(3,4,3)">Finanzas medioambientales</div>
-    <div class="conexto" id="btn5" onclick="mostrarp(4,5,4)">Finanzas del carbono</div>
+    <div class="conexto" id="btn2" onclick="mostrarp(1,2,1)">Gobierno corporativo</div>
+    <div class="conexto b2" id="btn3" onclick="mostrarp(2,3,2)">Estrategia</div>
+    <div class="conexto b2" id="btn4" onclick="mostrarp(3,4,3)">Gestión de riesgo</div>
+    <div class="conexto" id="btn5" onclick="mostrarp(4,5,4)">Métricas y objetivos</div>
   </div>
   <div class="conexto btn1 hide" id="btn1">Comenzar</div>
 
   <div class="texto1 hide align-items-center" id="text1">
     <div class="intertexto">
-      <div class="parr"><b class="tituparr">Finanzas sustentables</b><br><br>
+      <div class="parr"><b class="tituparr">Gobierno corporativo</b><br><br>
         <p class="justo">
-          Práctica de crear valor económico y social a través de modelos, productos y mercados financieros que son
-          sostenibles en el tiempo. Considera los tres niveles ASG.
+          Describir el gobierno corporativo y los roles de gestión acerca de los riesgos relacionados al cambio
+          climático, así como las oportunidades.
         </p>
       </div>
 
@@ -45,11 +45,10 @@
 
   <div class="texto1 hide align-items-center" id="text2">
     <div class="intertexto">
-      <div class="parr"><b class="tituparr">Finanzas verdes</b><br><br>
+      <div class="parr"><b class="tituparr">Estrategias</b><br><br>
         <p class="justo">
-          Están orientadas a la mejora del medio ambiente y el crecimiento económico. Incorporan nuevas tecnologías,
-          productos financieros y servicios que consideren al medio ambiente, eficiencia energética y la reducción de
-          emisiones contaminantes para un crecimiento verde bajo en emisiones de carbono.
+          Describir los riesgos y oportunidades identificadas en la organización relacionadas al cambio climático a
+          corto, mediano y largo plazo, considerando los diferentes escenarios, estrategia y planificación financiera.
         </p>
       </div>
 
@@ -58,11 +57,10 @@
 
   <div class="texto1 hide align-items-center" id="text3">
     <div class="intertexto">
-      <div class="parr"><b class="tituparr">Finanzas medioambientales</b><br><br>
+      <div class="parr"><b class="tituparr">Gestión de riesgo</b><br><br>
         <p class="justo">
-          Consideran el daño ambiental como un riesgo financiero. No financian proyectos que dañen al medio ambiente. Es
-          un concepto más amplio que las finanzas verdes ya que promueven inversiones directamente relacionadas con el
-          medio ambiente ecológico (aire, agua, suelo, etcétera).
+          Divulgar los procesos organizacionales para identificar, evaluar y gestionar los riesgos relacionados al
+          cambio climático, describiendo los procesos para realizar esa actividad.
         </p>
       </div>
 
@@ -71,23 +69,76 @@
 
   <div class="texto1 hide align-items-center" id="text4">
     <div class="intertexto">
-      <div class="parr"><b class="tituparr">Finanzas del carbono</b><br><br>
+      <div class="parr"><b class="tituparr">Métricas y objetivos</b><br><br>
         <p class="justo">
-          Su objetivo es reducir las emisiones de dióxido de carbono y otros gases de efecto invernadero (GEI). A través
-          del mercado de emisiones, el financiamiento hacia la reducción de emisiones incluye proyectos y servicios, así
-          como el desarrollo de tecnología para empresas con actividades “verdes”.
+          Describir métricas y objetivos utilizados en la organización para gestionar los riesgos relacionados al cambio
+          climático, indicado el alcance y las oportunidades en la gestión de emisiones de gases de efecto invernadero,
+          entre otros riesgos.
         </p>
       </div>
 
     </div>
   </div>
 
-  <div class="contelot hide" id="lot1"><img class="ima" src="images\1.png" alt=""></div>
-  <div class="contelot hide" id="lot2"><img class="ima" src="images\2.png" alt=""></div>
-  <div class="contelot hide" id="lot3"><img class="ima" src="images\3.png" alt=""></div>
-  <div class="contelot hide" id="lot4"><img class="ima" src="images\4.png" alt=""></div>
+  <div class="contelot hide" id="lot1"></div>
+  <div class="contelot hide" id="lot2"></div>
+  <div class="contelot hide" id="lot3"></div>
+  <div class="contelot hide" id="lot4"></div>
 
   <!-------------scripts------------------>
+
+  <script>
+    var animationOptions = {
+      container: document.getElementById('lot1'),
+      path: 'pant2.json', // Reemplaza con la ruta de tu archivo Lottie
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+    };
+
+    // Cargar la animación
+    var animsol2 = bodymovin.loadAnimation(animationOptions);
+  </script>
+
+  <script>
+    var animationOptions = {
+      container: document.getElementById('lot2'),
+      path: 'pant3.json', // Reemplaza con la ruta de tu archivo Lottie
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+    };
+
+    // Cargar la animación
+    var animsol = bodymovin.loadAnimation(animationOptions);
+  </script>
+
+  <script>
+    var animationOptions = {
+      container: document.getElementById('lot3'),
+      path: 'pant4.json', // Reemplaza con la ruta de tu archivo Lottie
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+    };
+
+    // Cargar la animación
+    var animsol = bodymovin.loadAnimation(animationOptions);
+  </script>
+
+  <script>
+    var animationOptions = {
+      container: document.getElementById('lot4'),
+      path: 'pant5.json', // Reemplaza con la ruta de tu archivo Lottie
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+    };
+
+    // Cargar la animación
+    var animsol = bodymovin.loadAnimation(animationOptions);
+  </script>
+
 
 
   <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
